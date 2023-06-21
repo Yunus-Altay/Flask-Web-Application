@@ -1,7 +1,9 @@
 #!/bin/bash
 
 yum update -y
-pip3 install flask -y
+yum install python3
+yum install python-pip -y
+pip3 install flask 
 pip3 install flask-mysql
 pip3 install sqlalchemy
 pip3 install Flask-SQLAlchemy
